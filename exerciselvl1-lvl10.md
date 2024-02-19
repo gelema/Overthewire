@@ -1,8 +1,7 @@
 ---
 title: 'Practica Overthewhire'
 description: 'Aprendiendo Linux'
-pubDate: 'January 27 2023'
-heroImage: '/blog-placeholder-3.jpg'
+pubDate: 'February 18 2024'
 ---
 
 # Overtherire and Bandit
