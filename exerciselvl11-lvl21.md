@@ -55,6 +55,18 @@ __Flag:__ The password is: wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 
 ## Bandit level 13
 __Description:__
+La contraseña para el siguiente nivel esta almacenado en /etc/bandit_pass/bandit14 y solo puede ser leido por el usuario bandit14. Para este nivel tu no necesitas la contraseña, pero tu obtienes la clave ssh y utilizar para el siguiente nivel.
+Nota: localhost is a nombre del anfitrion hace referencia a la maquina que tu estas trabajando.
 
 __Command Use:__<br>
-<code>copy data.hex  </code>
+<code>ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220</code>
+<code>cd /etc/bandit_pass && cat bandit14 </code>
+
+__flag:__ fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+
+## Bandit level 14
+__Description:__
+La contraseña para el siguiente nivel se puede recuperar enviando la contraseña del nivel actual al puerto 30000 en localhost.\
+
+__Command Use:__<br>
+<code>  </code>
